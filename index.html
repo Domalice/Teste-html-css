@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste HTML/CSS</title>
+    <link rel="stylesheet" href="lib/Nivo-Slider/themes/default/default.css"/>
+    <link rel="stylesheet" href="lib/Nivo-Slider/nivo-slider.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- cabeçalho -->
+    <header>
+        <div class="contact">
+            <div class="numbers container">
+                <p>11 1234-1234</p>
+                <p>11 1234-1234</p>
+            </div>
+        </div>
+        <!-- logo -->
+        <div class="container row">
+            <div class="imagem-logo">
+                <img src="img/logo-ideal.png" alt="logo empresa">
+            </div>
+            <!-- nav e submenu -->
+            <nav class="dp-menu">
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">empresa</a>
+                        <ul>
+                            <li><a href="#">submenu 1</a></li>
+                            <li><a href="#">submenu 1</a></li>
+                            <li><a href="#">submenu 1</a></li>
+                            <li><a href="#">submenu 1</a>
+                                <ul>
+                                    <li><a href="#">submenu 2</a></li>
+                                    <li><a href="#">submenu 2</a></li>
+                                    <li><a href="#">submenu 2</a></li>
+                                    <li><a href="#">submenu 2</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">clientes</a></li>
+                    <li><a href="#">contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- slider -->
+    <section class="bg row">
+        <div id="slider" class="nivoSlider theme-default container">
+            <img src="img/banner-historia.png" alt="conexão dos países">
+            <img src="img/jose-paulo.jpg" alt="empresário josé paulo">
+            <img src="img/frase.png" alt="frase">
+        </div>
+    </section>
+
+    <!-- conteúdo principal -->
+    <main class="container">
+        <div class="column row move">
+            <article>
+                <h2>teste de html e css</h2>
+                <p class="p">Quesitos de avaliação:</p>
+                <ul>
+                    <li>Código limpo e organizado, separado lógicamente por partes. ✓</li>
+                    <li>Detalhes idênticos da refêrencia + small features. ✓</li>
+                    <p class="p">Responsivo:</p>
+                    <li>Flexbox/Grid para melhor compatibilidade entre browsers. ✓</li>
+                    <li>Utilização dos medidores EM, REM. ✓</li>
+                    <li>Media Query para adaptação de dispositivos mobile. ✓</li>
+                    <p class="p">Estrutura:</p>
+                    <li>HTML semântico. ✓</li>
+                    <li>Conteúdo melhor interpretado pelo browser, SEO. ✓</li>
+                </ul>
+            </article>
+            <aside>
+                <img src="img/imagem1.jpg" alt="grupo de pessoas" class="aside">
+            </aside>
+        </div>
+
+        <h2 id="box">boxes de destaque</h3>
+        <section class="container row flex">
+            <div class="box">
+                <img src="img/column1.png" alt="">
+                <p><a href="https://idealtrends.com.br/nossa-historia/" target="_blank">Nossa História</a></p>
+            </div>
+            <div class="box">
+                <img src="img/column2.png" alt="">
+                <p><a href="https://idealtrends.com.br/principios/" target="_blank">Nossos Princípios</a></p>
+            </div>
+            <div class="box">
+                <img src="img/column3.png" alt="">
+                <p><a href="https://idealtrends.com.br/unidades/" target="_blank">Unidades</a></p>
+            </div>
+            <div class="box">
+                <img src="img/column4.png" alt="">
+                <p><a href="https://idealtrends.com.br/sobre-o-grupo/" target="_blank">Sobre o Grupo</a></p>
+            </div>
+        </section>
+    </main>
+<!-- rodapé -->
+    <footer>
+        <nav class="nav--footer container">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">empresa</a></li>
+                <li><a href="#">clientes</a></li>
+                <li><a href="#">contato</a></li>
+            </ul>
+            <p>rodape</p>
+        </nav>
+    </footer>
+
+    <!-- config jquery-->
+    <script src="js/jquery-3.6.1.js"></script>
+    <script src="lib/Nivo-Slider/jquery.nivo.slider.js"></script>
+    <script src="js/funcoes.js"></script>
+</body>
+</html>
